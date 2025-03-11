@@ -1,6 +1,6 @@
 # Rave™
 
-[Rave](https://oe2i.org/rave)™ is a powerful PHP library by [OE2i™](https://oe2i.com/), designed to streamline and enhance web application development with the [Laravel](https://laravel.com) framework. It is open-source, [Apache Licensed](?tab=Apache-2.0-1-ov-file), and offers flexibility for usage and modification.
+[Rave](https://oe2i.org/rave)™ is a powerful PHP library by [OE2i™](https://oe2i.com/), designed to streamline and enhance web application development with the [Laravel](https://laravel.com) framework. It is open-source, Apache Licensed, and offers flexibility for usage and modification.
 
 ## Licensing
 
