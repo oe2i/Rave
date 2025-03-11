@@ -32,3 +32,7 @@ The Apache License on this open-source project implies the following.
 | Patent            | Includes an explicit patent grant                                                          |
 | Attribution       | Must include a notice and give credit                                                      |
 | Compatibility     | Compatible with most open-source and proprietary projects                                  |
+
+
+
+<a href="https://example.com" target="_blank">Visit Example</a>
