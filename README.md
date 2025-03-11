@@ -6,7 +6,7 @@
 
 ### Apache License
 
-Copyright 2025 **[OE2i](https://oe2i.com/) Solutions Limited**
+Copyright 2025 **OE2I Solutions Limited**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
