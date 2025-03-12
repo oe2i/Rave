@@ -204,15 +204,15 @@ class RandomX
 	}
 
 
-	// ◈ === euid »
-	public static function euid($length = 10)
+	// ◈ === puid »
+	public static function puid($length = 10)
 	{
 		return substr(self::generate(), 0, $length);
 	}
 
 
-	// ◈ === fuid »
-	public static function fuid($length = 100)
+	// ◈ === suid »
+	public static function suid($length = 100)
 	{
 		return substr(self::generate(), 0, $length);
 	}
@@ -232,20 +232,6 @@ class RandomX
 
 		$length = $length - 3;
 		return self::uppercase(3) . self::numeric(10) . self::uppercase($length);
-	}
-
-
-	// ◈ === puid »
-	public static function puid($length = 20)
-	{
-		return substr(self::generate(), 0, $length);
-	}
-
-
-	// ◈ === suid »
-	public static function suid($length = 40)
-	{
-		return substr(self::generate(), 0, $length);
 	}
 
 
