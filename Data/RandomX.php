@@ -182,7 +182,7 @@ class RandomX
 	}
 
 
-	// ◈ === simple » generate simple randomization
+	// ◈ === simple »
 	public static function simple()
 	{
 		$alpha = chr(rand() > 0.5 ? rand(65, 90) : rand(97, 122));
@@ -190,7 +190,7 @@ class RandomX
 	}
 
 
-	// ◈ === ten » generate 10 characters
+	// ◈ === ten »
 	public static function ten(Cases $case = Cases::BOTH)
 	{
 		return self::numeric(8) . self::alpha(2, $case);
@@ -204,8 +204,15 @@ class RandomX
 	}
 
 
-	// ◈ === ruid » Random Unique ID
-	public static function ruid($length = 10)
+	// ◈ === euid »
+	public static function euid($length = 10)
+	{
+		return substr(self::generate(), 0, $length);
+	}
+
+
+	// ◈ === fuid »
+	public static function fuid($length = 100)
 	{
 		return substr(self::generate(), 0, $length);
 	}
@@ -228,35 +235,35 @@ class RandomX
 	}
 
 
-	// ◈ === puid » primary unique id
+	// ◈ === puid »
 	public static function puid($length = 20)
 	{
 		return substr(self::generate(), 0, $length);
 	}
 
 
-	// ◈ === suid » secondary unique id
+	// ◈ === suid »
 	public static function suid($length = 40)
 	{
 		return substr(self::generate(), 0, $length);
 	}
 
 
-	// ◈ === tuid » tertiary unique id
+	// ◈ === tuid »
 	public static function tuid($length = 70)
 	{
 		return substr(self::generate(), 0, $length);
 	}
 
 
-	// ◈ === luid » log unique id
+	// ◈ === luid »
 	public static function luid($length = 50)
 	{
 		return substr(self::generate(), 0, $length);
 	}
 
 
-	// ◈ === token » alphanumeric characters
+	// ◈ === token »
 	public static function token($length = null)
 	{
 		if (!$length) {
@@ -266,14 +273,14 @@ class RandomX
 	}
 
 
-	// ◈ === key » 20 alphanumeric characters
+	// ◈ === key »
 	public static function key($length = 20)
 	{
 		return substr(self::generate(), 0, $length);
 	}
 
 
-	// ◈ === password » 20 alphanumeric characters
+	// ◈ === password »
 	public static function password($length = 12)
 	{
 		if (NumberX::isEven($length)) {
